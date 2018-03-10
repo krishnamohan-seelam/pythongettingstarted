@@ -19,8 +19,17 @@ def add_numbers(a:int,b:int) ->int:
     """
     return a+b
 
+
+def numeric_types():
+    answer = 21    #integer
+    pi = 3.14159   #float
+    final_answer = answer + pi # not required tobe worried on types
+    print("final answer :{0}".format(final_answer))
+
+
 def main():
      print("Addition of numbers:{0}".format(add_numbers(21,9)))
+     numeric_types()
 
 
 if __name__=='__main__':
