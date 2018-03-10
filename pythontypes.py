@@ -23,7 +23,7 @@ def add_numbers(a:int,b:int) ->int:
 def numeric_types():
     answer = 21    #integer
     pi = 3.14159   #float
-    final_answer = answer + pi # not required tobe worried on types
+    final_answer = answer + pi # not required to be worried on types
     print("final answer :{0}".format(final_answer))
 
 
