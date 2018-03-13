@@ -7,9 +7,10 @@ students = []
 class Student:
     school_name = "St.Joseph's Primary School"
 
-    def __init__(self , id , name):
+    def __init__(self , id , name , last_name):
         self.id = id
         self.name = name
+        self.last_name = last_name
         students.append(self)
 
     def __str__(self):
